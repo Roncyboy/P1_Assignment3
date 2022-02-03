@@ -5,133 +5,198 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lab03</title>
+    <link rel="stylesheet" href="css/middle.css">
+    <link href="css/main.css" rel="stylesheet"/>
 </head>
+
 <body>
     <header>
-        <h1>Metrolics<img src="#" alt="logo"></h1>
-        <ul class="head">
-            <li class="nav_item"><a href=#>Home</a></li>
-            <li class="nav_item"><a href=#>Pages</a></li>
-            <li class="nav_item"><a href=#>Blog</a></li>
-            <li class="nav_item"><a href=#>Portfolio</a></li>
-            <li class="nav_item"><a href=#>Home</a></li>
-        </ul>
+        <h1>Metrolics<img src="#"></h1>
+            
+        <div class="nav_item" id="box1">
+            <div class="image" id="circle1">
+                <img src="img/icons/house_icon.png" alt="home">
+            </div>
+            <a href=#>Home</a>
+        </div>
+        <div class="nav_item" id="box2">
+            <div class="image" id="circle2">
+                <img src="img/icons/nav 2nd icon.png" alt="pages">
+            </div>
+            <a href=#>Pages</a>
+        </div>
+        <div class="nav_item" id="box3">
+            <div class="image" id="circle3">
+                <img src="img/icons/mic icon.png" alt="blog">
+            </div>
+            <a href=#>Blog</a>
+        </div>
+        <div class="nav_item" id="box4">
+            <div class="image" id="circle4">
+                <img src="img/icons/suitcase icon.png" alt="portfolio">
+            </div>
+            <a href=#>Portfolio</a>
+        </div>
+        <div class="nav_item" id="box5">
+            <div class="image" id="circle5">
+                <img src="img/icons/mail icon.png" alt="home">
+            </div>
+            <a href=#>Home</a>
+        </div>
     </header>
     
     <div class="slider">
-        <button class="left"></button>
-        <p class="slidetext">Metro Style</p>
-        <p class="slidetext">Retina Ready</p>
-        <p class="slidetext">Responsive Design</p>
-        <img src="P1_Assignment3\My_website\img\slider-image.png" alt="slider_photo">
-        <button class="right"></button>
+        <div class="img_cont">
+            <img src="img/slider-image.png" alt="slider_photo">
+        </div>
+        <div class="buttonl"></div>
+        <div class="labels">
+            <p id="slidetext1">Metro Style</p>
+            <p id="slidetext2">Retina Ready</p>
+            <p id="slidetext3">Responsive Design</p>
+        </div>
+        <div class="buttonr"></div>
     </div>
 
     <div class="homepage_intro">
-        <p>Hey Guys! this is the <a href="metrolics">Metrolics</a> theme</p>
-        <p>It sports a responsive layout with a mobile layout</p>
+        <p>Hey Guys! this is the <a href="metrolics">Metrolics</a> theme.</p>
+        <p>It sports a responsive layout with a mobile layout.</p>
     </div>
     <div>
         <p class="home_subtit">Things That We Do</p>
         <p class="home_subtext">Ask us what we can do for you</p>
     </div>
-    <div class="todo_icon">
-        <img src="P1_Assignment3\My_website\img\icons.png" alt="idea_icon">
-        <img src="P1_Assignment3\My_website\img\icons.png" alt="img_icon">
-        <img src="P1_Assignment3\My_website\img\icons.png" alt="gears_icon">
-        <img src="P1_Assignment3\My_website\img\icons.png" alt="pencil_icon">
-    </div>
-    <div class="todo_title">
-        <p class="todo_title">Web Solutions</p>
-        <p class="todo_title">Photography</p>
-        <p class="todo_title">Web Development</p>
-        <p class="todo_title">Web Design</p>
-    </div>
-    <div>
-        <p class="todo_text">We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil their design needs. Whether you need to create a brand from scratch, including marketing materials and a beautiful and functional website or whether you are looking for a design refresh we are confident you will be pleased with the results.</p>
-        <p class="todo_text">We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil their design needs. Whether you need to create a brand from scratch, including marketing materials and a beautiful and functional website or whether you are looking for a design refresh we are confident you will be pleased with the results.</p>
-        <p class="todo_text">We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil their design needs. Whether you need to create a brand from scratch, including marketing materials and a beautiful and functional website or whether you are looking for a design refresh we are confident you will be pleased with the results.</p>
-        <p class="todo_text">We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil their design needs. Whether you need to create a brand from scratch, including marketing materials and a beautiful and functional website or whether you are looking for a design refresh we are confident you will be pleased with the results.</p>
+    <div class="todo_layout">
+        <div class="web_solutions">
+            <img src="img/lightbulb.png" class="todo_icon" alt="idea_icon">
+            <p class="todo_title">Web Solutions</p>
+            <p class="todo_text">We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil their design needs. Whether you need to create a brand from scratch, including marketing materials.</p>
+        </div>
+        <div class="photography">
+            <img src="img/picture_icon.png" class="todo_icon" alt="img_icon">
+            <p class="todo_title">Photography</p>
+            <p class="todo_text">We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil their design needs. Whether you need to create a brand from scratch, including marketing materials.</p>
+        </div>
+        <div class="web_dev">
+            <img src="img/gears.png" class="todo_icon" alt="gears_icon">
+            <p class="todo_title">Web Development</p>
+            <p class="todo_text">We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil their design needs. Whether you need to create a brand from scratch, including marketing materials.</p>
+        </div>
+        <div class="web_design">
+            <img src="img/pencil.png" class="todo_icon" alt="pencil_icon">
+            <p class="todo_title">Web Design</p>
+            <p class="todo_text">We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil their design needs. Whether you need to create a brand from scratch, including marketing materials..</p>
+        </div>
     </div>
     <div>
         <p class="home_subtit">What's Up Lately?</p>
         <p class="home_subtext">Read up our latest work</p>
     </div>
     <div class="home_lately">
-        <img src="P1_Assignment3\My_website\img\image.png" alt="img">
-        <img src="P1_Assignment3\My_website\img\image.png" alt="img">
-        <img src="P1_Assignment3\My_website\img\image.png" alt="img">
+        <img src="img/samplepost.png" alt="img">
+        <img src="img/samplepost.png" alt="img">
+        <img src="img/samplepost.png" alt="img">
+        <img src="img/samplepost.png" class="b_hide" alt="img">
     </div>
     <div>
         <p class="home_subtit">Our latest Projects</p>
         <p class="home_subtext">Clinet Happy? We are happy.</p>
     </div>
     <div class="home_latest">
-        <img src="P1_Assignment3\My_website\img\image.png" alt="img">
-        <img src="P1_Assignment3\My_website\img\image.png" alt="img">
-        <img src="P1_Assignment3\My_website\img\image.png" alt="img">
-        <img src="P1_Assignment3\My_website\img\image.png" alt="img">
-        <img src="P1_Assignment3\My_website\img\image.png" alt="img">
-        <img src="P1_Assignment3\My_website\img\image.png" alt="img">
+        <img src="img/image.png" alt="img">
+        <img src="img/image.png" alt="img">
+        <img src="img/image.png" alt="img">
+        <img src="img/image.png" alt="img">
+        <img src="img/image.png" alt="img">
+        <img src="img/image.png" alt="img">
     </div>
-    <div>
+    <div class="s_hide">
         <p class="home_subtit">Thingsofabove</p>
         <p class="home_subtext">Misc stuff we could not put anyplace else</p>
     </div>
-    <div>
-        <img src="P1_Assignment3\My_website\img\copy.png" alt="copy imgs">
-        <img src="#" alt="copy imgs">
+    <div class="copy s_hide">
+        <img src="img/copy.png" alt="copy imgs">
     </div>
-    <div class="home_brands">
-        <img src="P1_Assignment3\My_website\img\NB-Platform-logo.png" alt="netbeans_logo">
-        <img src="P1_Assignment3\My_website\img\multiply.png" alt="krita_logo">
-        <img src="P1_Assignment3\My_website\img\scirra-logo-01.png" alt="scirra_logo">
-        <img src="P1_Assignment3\My_website\img\blender-socket.png" alt="blender_logo">
-        <img src="P1_Assignment3\My_website\img\inkscape-logo.png" alt="inkscape_logo">
+    <div class="home_brands s_hide">
+        <img src="img/NB-Platform-logo.png" alt="netbeans_logo">
+        <img src="img/multiply.png" alt="krita_logo">
+        <img src="img/scirra-logo-01.png" alt="scirra_logo">
+        <img src="img/blender-socket.png" alt="blender_logo">
+        <img src="img/inkscape-logo.png" alt="inkscape_logo">
     </div>
+        
 
         
-        <footer>
-            <div class="author_info">
-                <img src="P1_Assignment3\My_website\img\peewee.png" alt="profile_picture">
-                <p class="peewee">Peewee Herman</p>
-                <p class="bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis vero amet veritatis dolorum error voluptates quos sit? Facere vel quae repudiandae sapiente rem exercitationem quisquam consequuntur, minima temporibus labore veniam.</p>
+    <footer>
+        <div class="author_info">
+                <div class="avatar"><img class="avatar_img" src="img\peewee.png" alt="profile_picture"></div>
+                <div class="peewee">
+                <h2>Peewee Herman</h2>
+                <p>Peewee has over 10 years experience in the industry. He is our Creative Director, digital designer, web designer and front-end developer. 
+                He is also pretty good with a sketchbook. Before starting the company Peewee worked as a designer and studio manager for a design house who boasted a 
+                number of big name clients.</p>
+                </div>
+        </div>
+
+<div class="line1"></div>
+    
+    <div class="footer_info">
+        <div class="about">
+            <h2>About Us</h2>
+            <p>Minions ipsum potatoooo potatoooo uuuhhh. Chasy poulet tikka masala jiji wiiiii hahaha po kass tulaliloo potatoooo. Bee do bee do bee do chasy ti aamoo! Po kass daa bee 
+            do bee do bee do po kass wiiiii butt chasy. Pepete uuuhhh hahaha gelatooo belloo! Bananaaaa aaaaaah butt potatoooo hana dul sae butt. Hahaha wiiiii ti aamoo! Ti aamoo! 
+            Baboiii jeje. Hahaha gelatooo daa me want bananaaa! Underweaaar potatoooo tank yuuu! Aaaaaah potatoooo poopayee.</p>
+            <div class="socials">
+                <div class="social_icon" id="social_box1"><img src="img/icons/facebook icon.png" alt="social"></div>
+                <div class="social_icon" id="social_box2"><img src="img/icons/google icon.png" alt="social"></div>
+                <div class="social_icon" id="social_box3"><img src="img/icons/twitter icon.png" alt="social"></div>
+                <div class="social_icon" id="social_box4"><img src="img/icons/instagram icon.png" alt="social"></div>
+                <div class="social_icon" id="social_box5"><img src="img/icons/wifi icon.png" alt="social"></div>
             </div>
-            <div class="about">
-                <p>About Us</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat unde provident ullam molestias earum sint. Inventore repellat qui eos iure aut incidunt illo eum saepe, soluta esse, necessitatibus magnam quo?</p>
-                <img src="#" alt="social">
-                <img src="#" alt="social">
-                <img src="#" alt="social">
-                <img src="#" alt="social">
-                <img src="#" alt="social">
+        </div>
+
+<div class="line1"></div>
+
+        <div class="flickr">
+            <h2>Flickr Photos</h2>
+                <div class="minions">
+                    <img src="img\Layer 2.png" alt="minion">
+                    <img src="img\Layer 3.png" alt="minion">
+                    <img src="img\Layer 4.png" alt="minion">
+                    <img src="img\Layer 7.png" alt="minion">
+                    <img src="img\Layer 6.png" alt="minion">
+                    <img src="img\Layer 8.png" alt="minion">
+                </div>
             </div>
-            <div class="flickr">
-                <p>Flickr Photos</p>
-                <img src="P1_Assignment3\My_website\img\Layer 2.png" alt="minion">
-                <img src="P1_Assignment3\My_website\img\Layer 3.png" alt="minion">
-                <img src="P1_Assignment3\My_website\img\Layer 4.png" alt="minion">
-                <img src="P1_Assignment3\My_website\img\Layer 7.png" alt="minion">
-                <img src="P1_Assignment3\My_website\img\Layer 6.png" alt="minion">
-                <img src="P1_Assignment3\My_website\img\Layer 8.png" alt="minion">
+            
+<div class="line1"></div>
+        
+        <div class="tweet">
+                <h2>Recent Tweets</h2>
+                <p>
+                    <div class="twitter_user"><img src="img/icons/twitter icon.png" alt="tweet_icon"></div>
+                    <a href=#>@Minions</a> - 
+                    ipsum potatoooo potatoooo uuuhhh. Chasy poulet tikka masala jiji wiiiii hahaha po kass 
+                    tulaliloo potatoooo. Bee do bee do bee do chasy ti aamoo! Po kass daa b ee do bee do bee do po kass
+
+                    <div class="twitter_user"><img src="img/icons/twitter icon.png" alt="tweet_icon"></div>
+                    <a href=#>@Minions</a> - 
+                    ipsum potatoooo potatoooo uuuhhh. Chasy poulet tikka masala jiji wiiiii hahaha po kass 
+                    tulaliloo potatoooo. Bee do bee do bee do chasy ti aamoo! Po kass daa b ee do bee do bee do po kass
+                </p>
+                
             </div>
-            <div class="tweet">
-                <p>Recent Tweets</p>
-                <p><img src="P1_Assignment3\My_website\img\icons.png" alt="tweet_icon">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                <p><img src="P1_Assignment3\My_website\img\icons.png" alt="tweet_icon">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            </div>
-            <div class="news">
-                <p>Newsletter</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam commodi minus distinctio corrupti. Illum accusamus temporibus excepturi aliquid! Quibusdam commodi quidem illo doloremque ipsa enim quaerat quisquam nulla aliquam ab.</p>
-                <div>Enter you Email...<img src="P1_Assignment3\My_website\img\icons.png" alt="go"></div>
-            </div>
-            <div class="footbut">
-                <button class="footbut_item"></button>
-                <button class="footbut_item"></button>
-                <button class="footbut_item"></button>
-                <button class="footbut_item"></button>
-                <button class="footbut_item"></button>
-            </div>
-        </footer>
-    </body>
+        
+<div class="line1"></div>
+
+        <div class="news">
+            <h2>Newsletter</h2>
+            <p>Minions ipsum potatoooo potatoooo uuuhhh. Chasy poulet tikka masala jiji wiiiii hahaha po kass tulaliloo potatoooo. Bee do bee do bee do chasy ti aamoo! 
+                Po kass daa b ee do bee do bee do po kass wiiiii butt chasy. Pepete uuuhhh hahaha gelatooo belloo!    Bananaaaa aaaaaah butt potatoooo hana dul sae butt. 
+                Hahaha wiiiii ti aamoo! Ti aamoo! Baboiii jeje. Hahaha gelatooo daa me want bananaaa! Underweaaar potatoooo tank yuuu! Aaaaaah potatoooo poopayee.</p>
+            <div>Enter you Email...</div>
+        </div>
+        </div>
+    </footer>
+</body>
 </html>
